@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Game</title>
+    <div name="main-libraries" hidden>
+      <script src="libs/p5.min.js"></script>
+      <script src="libs/keystroke.js"></script>
+    </div>
+    <div name="database-libraries" hidden>
+      <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+    </div>
+    <div name="game-libraries">
+      <script src="games/asteroids.js"></script>
+      <!--<script src="games/agario.js"></script>-->
+    </div>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Online Game</h1>
+    <div id="signin-container">
+      <span id="userDisplay"></span><br>
+      <input type="button" onclick="signUp()" value="Sign Up"/>
+      <input type="button" onclick="logIn()" value="Log In"/>
+      <input type="button" onclick="signOut()" value="Sign Out"/>
+    </div>
+    <div id="game-container"></div>
+  </body>
+</html>

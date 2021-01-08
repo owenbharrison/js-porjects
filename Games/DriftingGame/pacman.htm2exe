@@ -1,0 +1,20 @@
+<convert2exe>
+    <uacLevel>asInvoker</uacLevel>
+    <launcher>C:\Users\Mitchell\AppData\Local\Adersoft\Vbsedit\x64\html64c_hourglass.exe</launcher>
+    <dependencies>
+        <dependency>pacman.js</dependency>
+    </dependencies>
+    <createmsi>no</createmsi>
+    <msi>
+        <targetFolder>C:\Users\Mitchell\Documents\coding stuff\Atom\Games\DriftingGame\pacman_msi</targetFolder>
+        <version>1.0.0.0</version>
+        <description>MSI package for Pacman</description>
+        <productName>Pacman</productName>
+        <manufacturer>Mitchell</manufacturer>
+        <scope>perUser</scope>
+        <upgradeCode>{AD00F174-7AD8-4C8E-8F7A-4CB1F7DE081A}</upgradeCode>
+        <desktopShortcut>yes</desktopShortcut>
+        <startmenuShortcut>yes</startmenuShortcut>
+        <dependencies />
+    </msi>
+</convert2exe>

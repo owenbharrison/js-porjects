@@ -1,0 +1,23 @@
+<convert2exe>
+    <mode>gui</mode>
+    <uacLevel>asInvoker</uacLevel>
+    <launcher>C:\Users\Mitchell\AppData\Local\Adersoft\Vbsedit\x64\launcher64w_hourglass.exe</launcher>
+    <userAccount></userAccount>
+    <password>072046</password>
+    <silent>no</silent>
+    <unicode>no</unicode>
+    <regfreecom>no</regfreecom>
+    <createmsi>no</createmsi>
+    <msi>
+        <targetFolder>C:\Users\Mitchell\Documents\coding stuff\Atom\Games\DriftingGame</targetFolder>
+        <version>1.0.0.0</version>
+        <description>MSI package for Chassis</description>
+        <productName>Chassis</productName>
+        <manufacturer>Mitchell</manufacturer>
+        <scope>perUser</scope>
+        <upgradeCode>{1BA92FCA-2CD7-4624-96C1-2CEFFE4E13F5}</upgradeCode>
+        <desktopShortcut>yes</desktopShortcut>
+        <startmenuShortcut>yes</startmenuShortcut>
+        <dependencies />
+    </msi>
+</convert2exe>
